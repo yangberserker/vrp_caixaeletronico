@@ -1,0 +1,15 @@
+Tutorial
+
+Pasta (RAR) vrp/modules/
+Arquivo basic_atm.lua
+Substituir as "FUNÇÕES" dentro do arquivo basic_atm dentro da pasta vrp/modules do seu servidor, não substitua esse arquivo, apenas as respectivas funções dentro do próprio arquivo de seu servidor.
+
+Arquivo money.lua
+Substitua o arquivo dentro da sua base em vrp/modules.
+
+Pasta (RAR) vrp_banking
+Adicione no seu servidor e dê start no server.cfg
+
+Banco de Dados
+Execute o comando
+ALTER TABLE vrp_user_moneys ADD `code` INT(4) NOT NULL;
